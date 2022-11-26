@@ -11,3 +11,5 @@
 #### https://mcwebsite.thequesing.ga
 
 ### LICENSE
+
+#### [MIT](/LICENSE)
