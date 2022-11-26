@@ -6,6 +6,8 @@
 
 ### EN
 
+#### This website is a 100% customizable and free web portal for minecraft servers
+
 ### DEMO
 
 #### https://mcwebsite.thequesing.ga
