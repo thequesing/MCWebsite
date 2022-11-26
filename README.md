@@ -1,2 +1,1 @@
-# MCWebsite
-Website for minecraft servers
+<img src="mcwebsite.png">
