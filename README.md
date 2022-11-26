@@ -10,12 +10,13 @@
 
 #### https://mcwebsite.thequesing.ga
 
-### LICENSE
-
-#### [MIT](/LICENSE)
 
 ### Author
 
-#### TheQuesing FullStack Developer
-#### Website: https://thequesing.ga
-#### Github: https://github.com/thequesing
+####  TheQuesing FullStack Developer
+- Website: https://thequesing.ga
+- Github: https://github.com/thequesing
+
+### LICENSE
+
+#### [MIT](/LICENSE)
