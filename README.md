@@ -15,7 +15,7 @@
 
 ### Author
 
-####  TheQuesing FullStack Developer
+####  TheQuesing Full Stack Developer
 - Website: https://thequesing.ga
 - Github: https://github.com/thequesing
 
