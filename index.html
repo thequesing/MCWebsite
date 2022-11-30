@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="title" content="Nombre">
+  <meta name="description" content="Web official de Nombre">
+  <link rel='icon' type='image/png' href='./img/logo.png'>
+  <title>Nombre</title>
+  <link rel="stylesheet" href="css/style.css" type="text/css" />
+</head>
+<body>
+  <div id="header">
+    <div id="status">
+      <div id="minecraft-status">
+          <h1>¡Hay <span id="minecraft-count">0</span> Jugadores Online!</h1>
+        <a style="text-decoration: none;" onclick="mcstatus()">
+          <p id="mcstatus" data-clipboard-text="mc.example.com" style="color: var(--second-color);">Click para unirme</p>
+        </a>
+      </div>
+      <div id="discord-status">
+          <h1>¡Hay <span id="discord-count">0</span> Usuarios Online!</h1>
+        <a style="text-decoration: none;" href="#">
+          <p style="color: var(--second-color);">Click para unirme</p>
+        </a>
+      </div>
+    </div>
+    <div id="logo-container">
+      <a href="/">
+      <img id="logo" src="./img/logo.png">
+      </a>
+    </div>
+  </div>
+  <div id="main">
+    <div id="buttons">
+      <div id="button">
+        <a style="text-decoration: none; color: black;"  href="#">
+          <img id="button-img" src="img/discord.svg">
+          <h1>Discord</h1>
+        </a>
+      </div>
+      <div id="button">
+        <a style="text-decoration: none; color: black;"  href="#">
+          <img id="button-img" src="./img/store.svg">
+          <h1>Tienda</h1>
+        </a>
+      </div>
+      <div id="button">
+        <a style="text-decoration: none; color: black;"  href="mundos.html">
+          <img id="button-img" src="./img/worlds.png">
+          <h1>Mundos</h1>
+        </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.10/dist/clipboard.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

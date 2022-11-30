@@ -1,0 +1,110 @@
+:root{
+  --main-color: #0920d3;
+  --second-color: #00eeff;
+  --logo-height: 200px;
+  --logo-width: 200px;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  /* background: ; */
+  font-family: monospace;
+}
+#header{
+  background: var(--main-color);
+  height: 300px;
+}
+#logo-container{
+  position: absolute;
+  top: 5px;
+  text-align: center;
+  width: 100%;
+}
+#logo{
+  width: var(--logo-width);
+  height: var(--logo-height);
+}
+#minecraft-status{
+  top: 80px;
+  position: absolute;
+  left: 50px;
+}
+#discord-status{
+  top: 80px;
+  position: absolute;
+  right: 50px;
+}
+#main{
+  margin: 10px;
+}
+#buttons{
+  margin: 20px;
+  margin-left: 20%;
+}
+#button{
+  background: var(--main-color);
+  border-radius: 15px;
+  width: 270px;
+  max-width: 250px;
+  height: 250px;
+  float: left;
+  margin: 10px;
+  text-align: center;
+}
+#button-img{
+  max-height: 190px;
+  margin: 10px;
+}
+#notfound{
+  background: var(--main-color);
+  margin: 10px auto;
+  width: 500px;
+  max-width: 500px;
+  height: 500px;
+  text-align: center;
+  border-radius: 15px;
+}
+#notfound img{
+  max-width: 300px;
+  max-height: 300px;
+  text-align: center;
+}
+#notfound a{
+  text-decoration: none;
+  background: white;
+  color: black;
+  padding: 20px 40px;
+  font-size: 10px;
+  text-align: center;
+  float: left;
+  margin: 5px;
+  margin-left: 40%;
+  margin-right: 40%;
+  border-radius: 15px;
+}
+
+/* RESPONSIVE */ 
+
+@media only screen and (max-width: 600px) {
+  body{
+    max-width: 600px
+  }
+  #header{
+    height: 400px;
+  }
+  #logo-container{
+    top: 50px;
+  }
+  #buttons{
+    margin-left: 15%;
+  }
+  #minecraft-status{
+    display: none;
+  }
+  #discord-status{
+    display: none;
+  }
+}
