@@ -1,3 +1,8 @@
+// Config 
+var mc_ip = "mc.hypixel.net";
+var mc_port = "25565";
+var discord_id = "998651654427652226";
+
 // Clipboard
 var clipboard = new ClipboardJS('#mcstatus');
 
@@ -15,7 +20,7 @@ function  mcstatus() {
 }
 
 // Minecraft Status
-$.getJSON(`https://api.minetools.eu/ping/mc.hypixel.net/25565`, function (data) {
+$.getJSON(`https://api.minetools.eu/ping/${mc_ip}/${mc_port}`, function (data) {
     
             if (data.error === undefined) {
                 document.getElementById('minecraft-count').textContent = data.players.online;
@@ -25,7 +30,7 @@ $.getJSON(`https://api.minetools.eu/ping/mc.hypixel.net/25565`, function (data) 
         });
 
 // Discord Status
-$.getJSON(`https://discord.com/api/guilds/998651654427652226/widget.json`, function (data) {
+$.getJSON(`https://discord.com/api/guilds/${discord_id}/widget.json`, function (data) {
     
             if (data.error === undefined) {
                 document.getElementById('discord-count').textContent = data.presence_count;
