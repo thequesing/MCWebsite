@@ -108,3 +108,11 @@ body{
     display: none;
   }
 }
+@media only screen and (max-width: 1200px){
+   #minecraft-status{
+     max-width: 100px;
+  }
+  #discord-status{
+     max-width: 100px;
+  }
+}
